@@ -4,21 +4,21 @@ public class OperadoresAritmeticos {
 
 	public static void main(String[] args) {
 		
-		int resultado = 1 + 90;
-		
+		int resultado = 0;
+		resultado += 93;
 		
 		System.out.println(resultado);
 		
-		resultado = resultado - 2;
+		resultado -= 2;
 		System.out.println(resultado);
 		
-		resultado = resultado / 4;
+		resultado /= 4;
 		System.out.println(resultado);
 		
-		resultado = resultado * 3;
+		resultado *= 3;
 		System.out.println(resultado);
 		
-		resultado = resultado % 3;
+		resultado %= 3;
 		System.out.println(resultado);
 		
 		resultado++;
