@@ -20,6 +20,9 @@ public class CurtoCircuito {
 		System.out.println(resultado3);
 		System.out.println(resultado4 == verdadeiro);
 		
+		int resolucao = 1 + 1 - 1 + 1 * 1 / 1;
+		System.out.println("Resultado: " + resolucao);
+		
 	}
 
 }
