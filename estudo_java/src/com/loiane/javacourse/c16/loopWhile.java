@@ -12,6 +12,15 @@ public class loopWhile {
 			i++;
 		}
 		System.out.println(i);
+		
+		
+		do {
+			i++;
+			System.out.println("Valor da variável i: " + i);	
+			} while (i < 106);
+		
+		System.out.println(i);
+		
 	}
 
 }
