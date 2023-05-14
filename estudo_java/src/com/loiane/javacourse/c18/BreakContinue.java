@@ -25,7 +25,6 @@ public class BreakContinue {
 			}
 		} 
 		
-		
 		//Loop com continue:
 		Scanner scanner2 = new Scanner(System.in);
 		
@@ -43,8 +42,6 @@ public class BreakContinue {
 		    System.out.println("O valor de i é: " + i);
 		}
 		
-		
-
 		// GO TO: 
 		for (int i = 0; i <= 5; i ++) {
 			rotulo1: {
