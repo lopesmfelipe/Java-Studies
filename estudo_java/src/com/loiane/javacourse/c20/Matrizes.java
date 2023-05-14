@@ -76,12 +76,13 @@ public class Matrizes {
 			System.out.println("As notas do aluno " + id + " são: ");
 			
 			for (int j = 0; j < alunosNotas[i].length; j++) {
-				System.out.println(alunosNotas[i][j]);
+				System.out.print(alunosNotas[i][j] + " | ");
 			}
 			id++;
 			System.out.println();
 			
 		}
+		int nAluno = 1;
 		for (int x = 0; x < alunosNotas.length; x++) {
 			double somaNotas = 0;
 			int divisao = alunosNotas[x].length;
@@ -89,8 +90,9 @@ public class Matrizes {
 			for (int y = 0; y < alunosNotas[x].length; y++) {
 				somaNotas += alunosNotas[x][y];
 			}
-			System.out.println("A média do aluno é: " + (somaNotas/divisao));
+			System.out.println("A média do aluno " + nAluno + " é: " + (somaNotas/divisao));
 			System.out.println("-----------------------------");
+			nAluno++;
 		}
 	}
 
