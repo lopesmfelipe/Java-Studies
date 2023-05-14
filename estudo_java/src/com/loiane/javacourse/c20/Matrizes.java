@@ -34,7 +34,6 @@ public class Matrizes {
 		competidores[2][0] = 6.5;
 		
 		
-		
 		System.out.println();
 		
 		for (int i = 0; i < competidores.length; i++) {
@@ -56,7 +55,6 @@ public class Matrizes {
 				notasSomadas += competidores[k][l];
 			}
 			System.out.println("A média de notas do aluno " + (++numeroAluno) + " é: " + (notasSomadas/divisor));
-			
 		}
 		
 		System.out.println("----------------");
@@ -80,7 +78,6 @@ public class Matrizes {
 			}
 			id++;
 			System.out.println();
-			
 		}
 		int nAluno = 1;
 		for (int x = 0; x < alunosNotas.length; x++) {
