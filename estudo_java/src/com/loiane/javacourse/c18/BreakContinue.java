@@ -6,7 +6,6 @@ public class BreakContinue {
 
 	public static void main(String[] args) {
 		
-		
 		// Loop com break:
 		Scanner scanner1 = new Scanner(System.in);
 		
