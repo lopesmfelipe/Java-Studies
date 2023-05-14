@@ -65,12 +65,16 @@ public class Matrizes {
 		// Como inicializar Arrays Matrizes de uma vez:
 		
 		double[] notasAluno01 = {5,7,10,10}; // Iniciando um Array normal
+		
 		double[][] alunosNotas = {{8,9,9.6,8.3} , {9,6,7,5.8}}; // Iniciando uma MatrizCada chave é um índice do array que possui suas respectivas posições dentro(que neste caso são as notas)
+		
+		System.out.println("OutPut da matriz alunosNotas"); 
+		System.out.println("-----------------");
 		
 		int id = 1;
 		for (int i = 0; i < alunosNotas.length; i++) {
-
 			System.out.println("As notas do aluno " + id + " são: ");
+			
 			for (int j = 0; j < alunosNotas[i].length; j++) {
 				System.out.println(alunosNotas[i][j]);
 			}
