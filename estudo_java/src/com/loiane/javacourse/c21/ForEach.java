@@ -13,12 +13,16 @@ public class ForEach {
 		for (int i = 0; i < notas.length; i++) {
 			
 			notas[i] = random.nextInt(10);
-			
 		}
 		
 		for (int i = 0; i < notas.length; i++) {
 			System.out.println(notas[i]);
 		}
+		
+		
+		System.out.println("Usando o for each");
+		
+		
 	}
 
 }
