@@ -23,6 +23,12 @@ public class ForEach {
 		System.out.println("Usando o for each");
 		
 		
+		for (int nota : notas) { // Boas práticas no "for each" o nome da variável que vai receber os valores do array ou lista, ser o nome singular desse array ou lista 
+			
+		}
+		
+		
+		
 	}
 
 }
