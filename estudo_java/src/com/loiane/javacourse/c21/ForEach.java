@@ -64,8 +64,6 @@ public class ForEach {
 				System.out.println();
 			}
 			
-		
-		
 	}	
 
 }
