@@ -6,7 +6,7 @@ public class ForEach {
 
 	public static void main(String[] args) {
 		
-		int[] notas = new int[10];
+		int[] notas = new int[5];
 		
 		Random random = new Random();
 		
