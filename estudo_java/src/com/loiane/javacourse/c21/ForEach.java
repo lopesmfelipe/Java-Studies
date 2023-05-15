@@ -12,7 +12,7 @@ public class ForEach {
 		
 		for (int i = 0; i < notas.length; i++) {
 			
-			notas[i] = random.nextInt(10);
+			notas[i] = random.nextInt(5); // limita quais números podem aparecer
 		}
 		
 		for (int i = 0; i < notas.length; i++) {
