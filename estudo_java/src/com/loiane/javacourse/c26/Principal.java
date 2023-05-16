@@ -26,13 +26,17 @@ public class Principal {
 		System.out.println(mustang.velocidadeMaxima);
 		mustang.exibirAutonomiaCombustivel();
 		
+		double autonomia = mustang.obterAutonomia();
+		System.out.println(autonomia);
+		
 		System.out.println();
 		
 		System.out.println(audi.marca);
 		System.out.println(audi.velocidadeMaxima);
 		audi.exibirAutonomiaCombustivel();
 		
-		
+		autonomia = audi.obterAutonomia();
+		System.out.println(autonomia);
 	}
 
 }
