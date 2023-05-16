@@ -13,6 +13,11 @@ public class Carro {
 		System.out.println("A autonoma do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
 	}
 	
-	
+	double obterAutonomia() {
+		
+		System.out.println("Método obterAutonomia foi chamado");
+		
+		return capacidadeCombustivel * consumoCombustivel;
+	}
 	
 }
