@@ -23,7 +23,6 @@ public class Principal {
 		audi.marca = "audi";
 		
 		System.out.println(mustang.marca);
-		System.out.println(mustang.velocidadeMaxima);
 		mustang.exibirAutonomiaCombustivel();
 		
 		double autonomia = mustang.obterAutonomia();
@@ -32,7 +31,6 @@ public class Principal {
 		System.out.println();
 		
 		System.out.println(audi.marca);
-		System.out.println(audi.velocidadeMaxima);
 		audi.exibirAutonomiaCombustivel();
 		
 		autonomia = audi.obterAutonomia();
