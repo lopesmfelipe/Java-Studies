@@ -5,9 +5,12 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		CarroEsportivo Mustang = new CarroEsportivo();
+		CarroEsportivo mustang = new CarroEsportivo();
 		
-		
+		mustang.velocidadeMaxima = 270.8;
+		mustang.numeroPassageiros = 2;
+		mustang.capacidadeCombustivel = 45;
+		mustang.marca = "Ford";
 	}
 
 }
