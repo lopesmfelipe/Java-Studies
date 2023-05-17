@@ -10,7 +10,7 @@ public class Carro {
 	double velocidadeMaxima;
 	
 	void exibirAutonomiaCombustivel() {
-		System.out.println("A autonoma do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
+		System.out.println("A autonomia do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
 	}
 	
 	double obterAutonomia() {
