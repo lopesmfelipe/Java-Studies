@@ -38,11 +38,11 @@ public class Principal {
 		
 		System.out.println();
 		
-		double qtdCombustivel = mustang.calcularCombustivel(20);
-		System.out.println("A quantidade de combustível necessária para o Mustang andar 20km é = " + qtdCombustivel);
+		double quantidadeCombustivel = mustang.calcularCombustivel(20);
+		System.out.println("A quantidade de combustível necessária para o Mustang andar 20km é = " + quantidadeCombustivel);
 		
-		qtdCombustivel = audi.calcularCombustivel(20);
-		System.out.println("A quantidade de combustível necessária para o Audi andar 20km é = " + qtdCombustivel);
+		quantidadeCombustivel = audi.calcularCombustivel(20);
+		System.out.println("A quantidade de combustível necessária para o Audi andar 20km é = " + quantidadeCombustivel);
 		
 		
 		
