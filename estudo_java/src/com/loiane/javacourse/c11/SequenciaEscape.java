@@ -10,6 +10,8 @@ public class SequenciaEscape {
 		// 1\4
 		System.out.println("1\\4");  // Barra invertida para printar "1\4" corretamente
 		
+		
+		
 	}
 
 }
