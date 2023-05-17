@@ -1,6 +1,6 @@
 package com.loiane.javacourse.c27;
 
-import com.loiane.javacourse.c26.Carro;
+import com.loiane.javacourse.c27.Carro;
 
 public class Principal {
 
