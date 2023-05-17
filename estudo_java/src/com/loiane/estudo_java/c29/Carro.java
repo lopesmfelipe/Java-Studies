@@ -3,7 +3,7 @@ package com.loiane.estudo_java.c29;
 public class Carro {
 	
 	String marca; 
-	String modelo;
+	String tipo;
 	int numeroPassageiros;
 	double capacidadeCombustivel;
 	double consumoCombustivel;
@@ -12,6 +12,7 @@ public class Carro {
 	
 	Carro() {
 		System.out.println("Classe 'carro' foi intanciada.");
+		tipo = "elétrico";
 	}
 	
 	

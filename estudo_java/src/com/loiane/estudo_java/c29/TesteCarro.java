@@ -8,9 +8,9 @@ public class TesteCarro {
 		 Carro esportivo = new Carro();
 		 
 		 esportivo.marca = "Mercedes";
-		 esportivo.modelo = "esportivo";
 		 esportivo.velocidadeMaxima = 284.4;
 		 
+		 System.out.println("Tipo de carro = " + esportivo.tipo);
 		
 		
 		
