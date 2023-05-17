@@ -35,6 +35,19 @@ public class Principal {
 		autonomia = audi.obterAutonomia();
 		System.out.println(autonomia);
 		
+		
+		System.out.println();
+		
+		double qtdCombustivel = mustang.calcularCombustivel(20);
+		System.out.println("A quantidade de combustível necessária para o Mustang andar 20km é = " + qtdCombustivel);
+		
+		qtdCombustivel = audi.calcularCombustivel(20);
+		System.out.println("A quantidade de combustível necessária para o Audi andar 20km é = " + qtdCombustivel);
+		
+		
+		
+		
+		
 	}
 
 }
