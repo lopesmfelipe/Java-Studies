@@ -9,6 +9,12 @@ public class Carro {
 	double consumoCombustivel;
 	double velocidadeMaxima;
 	
+	
+	Carro() {
+		System.out.println("Classe 'carro' foi intanciada.");
+	}
+	
+	
 	void exibirAutonomiaCombustivel() {
 		System.out.println("A autonoma do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
 	}
