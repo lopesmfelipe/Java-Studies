@@ -20,4 +20,9 @@ public class Carro {
 		return capacidadeCombustivel * consumoCombustivel;
 	}
 	
+	double calcularCombustivel(double km) {
+		return km;
+	}
+	
+	
 }
