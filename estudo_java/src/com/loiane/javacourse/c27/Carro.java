@@ -21,7 +21,12 @@ public class Carro {
 	}
 	
 	double calcularCombustivel(double km) {
-		return km;
+		
+		double qtdCombustivel = km/consumoCombustivel;
+		
+		return qtdCombustivel;
+		
+	
 	}
 	
 	
