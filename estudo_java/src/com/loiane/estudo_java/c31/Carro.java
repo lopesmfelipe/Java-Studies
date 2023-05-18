@@ -21,14 +21,14 @@ public class Carro {
 	}
 
 
-	public double multiplicaKMeConsumoDeCombustivel(double km) {
+	public double multiplicaKMporConsumoDeCombustivel(double km) {
 		
 		return km * consumoCombustivel;
 	}
 	
 	double calcularCombustivel(double km) {
 		
-		return this.multiplicaKMeConsumoDeCombustivel(km);
+		return this.multiplicaKMporConsumoDeCombustivel(km);
 		
 		
 	}
