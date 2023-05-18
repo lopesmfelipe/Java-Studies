@@ -2,12 +2,12 @@ package com.loiane.estudo_java.c29;
 
 public class Carro {
 	
-	String marca; 
 	String tipo;
+	String marca; 
+	double velocidadeMaxima;
 	int numeroPassageiros;
 	double capacidadeCombustivel;
 	double consumoCombustivel;
-	double velocidadeMaxima;
 	
 	
 	Carro() {
@@ -15,11 +15,17 @@ public class Carro {
 		tipo = "elétrico";
 	}
 	
-	Carro(String marca2) {
+	Carro(String tipo2, String marca2, double velocidadeMaxima2, int numeroPassageiros2, double capacidadeCombustivel2, double consumoCombustivel2) {
+		
+		tipo = tipo2;
 		marca = marca2;
+		velocidadeMaxima = velocidadeMaxima2;
+		numeroPassageiros = numeroPassageiros2;
+		capacidadeCombustivel = capacidadeCombustivel2;
+		consumoCombustivel = consumoCombustivel2;
+		
+		
 	}
-	
-	
 	
 	
 	void exibirAutonomiaCombustivel() {
