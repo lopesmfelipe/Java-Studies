@@ -12,7 +12,7 @@ public class TesteCarro {
 		 
 		 System.out.println("Tipo de carro = " + esportivo.tipo);
 		
-		Carro esportivo2 = new Carro("Ferrari");
+		Carro esportivo2 = new Carro("Elétrico", "McLaren", 275, 2, 50, 1.2);
 		esportivo2.velocidadeMaxima = 303;
 		
 		
