@@ -12,8 +12,9 @@ public class TesteCarro {
 		 
 		 System.out.println("Tipo de carro = " + esportivo.tipo);
 		
+		Carro esportivo2 = new Carro("Ferrari");
 		
-		
+		System.out.println(esportivo2.marca);
 		
 		
 		
