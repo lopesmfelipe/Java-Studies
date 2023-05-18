@@ -20,19 +20,15 @@ public class Carro {
 		return capacidadeCombustivel * consumoCombustivel;
 	}
 
-
 	private double multiplicaKMporConsumoDeCombustivel(double km) {
-		
+
 		return km * consumoCombustivel;
 	}
-	
+
 	double calcularCombustivel(double km) {
-		
+
 		return this.multiplicaKMporConsumoDeCombustivel(km);
-		
-		
+
 	}
-	
-	
-	
+
 }

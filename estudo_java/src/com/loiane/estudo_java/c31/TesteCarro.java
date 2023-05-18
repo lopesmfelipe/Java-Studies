@@ -1,16 +1,15 @@
 package com.loiane.estudo_java.c31;
 
-import com.loiane.estudo_java.c30.Carro;
-
 public class TesteCarro {
 
 	public static void main(String[] args) {
 
-		
-		Carro Honda = new Carro();
-		
-		
-		
+		Carro x = new Carro();
+
+		x.consumoCombustivel = 0.6;
+
+		System.out.println("Seu carro precisara de " + x.calcularCombustivel(80) + "L" + " de combustível");
+
 	}
 
 }
