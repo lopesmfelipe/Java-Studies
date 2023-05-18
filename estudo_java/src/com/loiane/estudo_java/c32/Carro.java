@@ -9,6 +9,12 @@ public class Carro {
 	double capacidadeCombustivel;
 	double consumoCombustivel;
 	
+	public String getMarca() {
+		return this.marca;
+	}
 	
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
 	
 }
