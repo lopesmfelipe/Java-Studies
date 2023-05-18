@@ -8,8 +8,8 @@ public class TesteCarroAlt {
 		
 		Carro honda = new Carro();
 		
-		honda.marca = "Honda";
-		System.out.println(honda.marca);
+
+		System.out.println();
 		
 	}
 	
