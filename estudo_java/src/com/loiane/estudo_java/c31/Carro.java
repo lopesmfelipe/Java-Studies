@@ -20,11 +20,19 @@ public class Carro {
 		return capacidadeCombustivel * consumoCombustivel;
 	}
 
-	double calcularCombustivel(double km) {
 
-		double qtdCombustivel = km * consumoCombustivel;
-
-		return qtdCombustivel;
+	public double multiplicaKMeConsumoDeCombustivel(double km) {
+		
+		return km * consumoCombustivel;
 	}
-
+	
+	double calcularCombustivel(double km) {
+		
+		return this.multiplicaKMeConsumoDeCombustivel(km);
+		
+		
+	}
+	
+	
+	
 }
