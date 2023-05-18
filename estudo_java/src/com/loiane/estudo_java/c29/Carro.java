@@ -15,6 +15,12 @@ public class Carro {
 		tipo = "elétrico";
 	}
 	
+	Carro(String marca2) {
+		marca = marca2;
+	}
+	
+	
+	
 	
 	void exibirAutonomiaCombustivel() {
 		System.out.println("A autonoma do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
