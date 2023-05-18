@@ -21,7 +21,7 @@ public class Carro {
 	}
 
 
-	public double multiplicaKMporConsumoDeCombustivel(double km) {
+	private double multiplicaKMporConsumoDeCombustivel(double km) {
 		
 		return km * consumoCombustivel;
 	}
