@@ -38,7 +38,7 @@ public class Carro {  // public pode ser utilizado em qualque classe de qualquer
 	}
 
 
-	public Carro() {
+	 Carro() {  // método construtor default, ou seja, só pode ser utilizado pelas classes do pacote
 		
 	}
 	
