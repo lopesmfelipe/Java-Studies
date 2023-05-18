@@ -11,7 +11,6 @@ public class Carro {
 	double consumoCombustivel;
 	
 	
-	
 	public Carro(String tipo, String marca, double velocidadeMaxima, int numeroPassageiros,
 			double capacidadeCombustivel, double consumoCombustivel) {
 		
