@@ -29,12 +29,15 @@ public class Carro {
 		this.tipo = tipo;
 		this.marca = marca;
 		this.numeroPassageiros = numeroPassageiros;
+		
+		System.out.println("Chamando o construtor com 3 parâmetros");
+
 	}
 
 	public Carro(String tipo, String marca) {
 		
 		this("combustão", "lamborguini", 4);
-		
+		System.out.println("Chamando o construtor com 2 parâmetros");
 	}
 
 
