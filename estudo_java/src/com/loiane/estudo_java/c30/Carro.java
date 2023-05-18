@@ -11,4 +11,15 @@ public class Carro {
 	double consumoCombustivel;
 	
 	
+	
+	public Carro() {
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
