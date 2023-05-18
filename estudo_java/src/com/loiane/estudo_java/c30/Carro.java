@@ -3,12 +3,12 @@ package com.loiane.estudo_java.c30;
 public class Carro {
 
 	
-	String tipo;
-	String marca; 
-	double velocidadeMaxima;
-	int numeroPassageiros;
-	double capacidadeCombustivel;
-	double consumoCombustivel;
+	public String tipo;
+	public String marca; 
+	public double velocidadeMaxima;
+	public int numeroPassageiros;
+	public double capacidadeCombustivel;
+	public double consumoCombustivel;
 	
 	
 	public Carro(String tipo, String marca, double velocidadeMaxima, int numeroPassageiros,
