@@ -11,7 +11,7 @@ public class Carro {
 	
 	
 	Carro() {
-		System.out.println("Classe 'carro' foi intanciada.");
+		System.out.println("Classe 'carro' foi instanciada.");
 		tipo = "elétrico";
 	}
 	
