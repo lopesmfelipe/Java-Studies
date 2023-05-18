@@ -15,7 +15,7 @@ public class Carro {
 	public Carro(String tipo, String marca, double velocidadeMaxima, int numeroPassageiros,
 			double capacidadeCombustivel, double consumoCombustivel) {
 		
-		this.tipo = tipo;
+		this.tipo = tipo;      // *dica: se você seleciona um atributo, método e etc, e aperta f3, ele vai te levar para a declaração daquele atributo ou método
 		this.marca = marca;
 		this.velocidadeMaxima = velocidadeMaxima;
 		this.numeroPassageiros = numeroPassageiros;
