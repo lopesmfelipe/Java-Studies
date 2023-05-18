@@ -34,7 +34,7 @@ public class Carro {
 	}
 
 	public Carro(String tipo, String marca) {
-		this(tipo, marca, 05);
+		this(tipo, marca, 05);  // esse this chama o construtor com 3 parâmetros, onde settamos o 3° parâmetro
 		System.out.println("Chamando o construtor com 2 parâmetros");
 	}
 
