@@ -1,6 +1,6 @@
 package com.loiane.estudo_java.c30;
 
-public class Carro {  // public pode ser utilizado em qualque classe de qualquer pacote do projeto
+public class Carro {  // public pode ser utilizado em qualque classe de qualquer pacote do projeto & default funciona para as classes dentro do pacote
 
 	
 	private String tipo;  // private só pode ser utilizado dentro da classe
