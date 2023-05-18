@@ -24,6 +24,19 @@ public class Carro {
 		
 	}
 
+	
+	public Carro(String tipo, String marca, int numeroPassageiros) {
+		this.tipo = tipo;
+		this.marca = marca;
+		this.numeroPassageiros = numeroPassageiros;
+	}
+
+	public Carro(String tipo, String marca) {
+		
+		this("combustão", "lamborguini", 4);
+		
+	}
+
 
 	public Carro() {
 		
