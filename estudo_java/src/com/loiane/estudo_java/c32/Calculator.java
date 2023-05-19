@@ -5,6 +5,10 @@ public class Calculator {
 	public double divisao(double numero1, double numero2) {
 		return numero1 / numero2;
 	}
+	
+	public double divisor(double numero1, double numero2) {
+		return numero1 / numero2;
+	}
 
 	public int divisao(int numero1, int numero2) {
 		return numero1 / numero2;
