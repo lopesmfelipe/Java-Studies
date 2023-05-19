@@ -6,8 +6,9 @@ public class CalculatorTest {
 		
 		MyCalculator calcul = new MyCalculator();
 		
-		int x = calcul.divisao(4, 2);
-		System.out.println(x);
+		MyCalculator.divisao(new int[] {2,3});
+		
+		
 		
 	}
 
