@@ -1,6 +1,6 @@
 package com.loiane.estudo_java.c34;
 
-public class MyCalculator {
+public class MyCalculator {  // classe utilitária, por ter vários "static".
 
 	public static double divisao(double numero1, double numero2) {
 		return numero1 / numero2;
