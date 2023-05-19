@@ -1,6 +1,6 @@
 package com.loiane.estudo_java.c34;
 
-public class MyCalculator {  // classe utilitária, por ter vários "static" (não precisa instanciar para chamar métodos ou atributos static).
+public class MyCalculator {  // classe utilitária(igual a classe 'Math'), por ter vários "static" (não precisa instanciar para chamar métodos ou atributos static).
 
 	public static double divisao(double numero1, double numero2) {
 		return numero1 / numero2;
