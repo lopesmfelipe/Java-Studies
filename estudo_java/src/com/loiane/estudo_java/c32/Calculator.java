@@ -22,7 +22,7 @@ public class Calculator {
 			total += vetor[i];
 		}
 
-		return total;
+		return total; 
 
 	}
 
