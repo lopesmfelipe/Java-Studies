@@ -14,12 +14,12 @@ public class Calculator {
 		return numero1 / numero2;
 	}
 
-	public int divisao(int[] vetor) {
+	public int divisao(int[] array) {
 
 		int total = 0;
 
-		for (int i = 0; i < vetor.length; i++) {
-			total += vetor[i];
+		for (int i = 0; i < array.length; i++) {
+			total += array[i];
 		}
 
 		return total; 

@@ -6,9 +6,9 @@ public class TestingCalculator {
 
 		Calculator calculator01 = new Calculator();
 		
-		calculator01.divisao(vetor[2]);
+		//calculator01.divisao(new int[] {1});
 		
-		
+		System.out.println(calculator01.divisao(new int[] {2,2,2}));
 		
 	}
 
