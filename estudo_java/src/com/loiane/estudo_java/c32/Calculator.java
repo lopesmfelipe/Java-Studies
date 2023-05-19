@@ -14,8 +14,19 @@ public class Calculator {
 		return numero1 / numero2;
 	}
 	
-	public int divisao(int numero1, int numero2) {
-		return numero1 / numero2;
+	public int divisao(int[] vetor) {
+		
+		int total = 0;
+		
+		for (int i = 0; i < vetor.length; i ++) {
+			total += vetor[i];
+		}
+		
+		return total;
+		
+		
+		
+		
 	}
 	
 }
