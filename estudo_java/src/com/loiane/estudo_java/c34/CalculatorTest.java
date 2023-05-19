@@ -4,9 +4,8 @@ public class CalculatorTest {
 
 	public static void main(String[] args) {
 		
-		MyCalculator calcul = new MyCalculator();
 		
-		MyCalculator.divisao(new int[] {2,3});
+		MyCalculator.divisao(new int[] {2,3});  // como temos métodos static na outra classe, podemos utiliza-los sem precisar instanciar um objeto
 		
 		
 		
