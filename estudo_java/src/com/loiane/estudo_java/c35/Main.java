@@ -6,7 +6,7 @@ public class Main {
 		
 		System.out.println(MetodoRecursivo.fatorialNaoRecursivo(5));
 		
-		
+		System.out.println(MetodoRecursivo.fatorialRecursivo(5));
 		
 		
 	}
