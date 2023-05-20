@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c16;
+package com.java_studies.p16;
 
 public class loopWhile {
 

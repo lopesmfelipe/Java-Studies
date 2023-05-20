@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c17;
+package com.java_studies.p17;
 
 public class LoopFor {
 
