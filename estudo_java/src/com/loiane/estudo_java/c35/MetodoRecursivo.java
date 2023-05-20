@@ -17,7 +17,7 @@ public class MetodoRecursivo {
 		if ( valorRecebido == 0) {
 			return 1;
 		}
-		return valorRecebido * fatorialRecursivo(valorRecebido - 1);
+		return valorRecebido * fatorialRecursivo(valorRecebido - 1);  // entra no método de 'fatorialRecursivo' de valorRecebido -1, quando o valor chegar em zero, vai entrar no if e sair do método 
 		
 	}
 }
