@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c11;
+package com.java_studies.p11;
 
 public class VariaveisPontoFlutuantes {
 
