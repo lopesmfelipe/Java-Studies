@@ -4,10 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		System.out.println(MetodoRecursivo.fatorialNaoRecursivo(5));
 		
-		System.out.println(MetodoRecursivo.calcularFatorialNormal(5));
-		
-		System.out.println(MetodoRecursivo.calcularFatorial(5));
 		
 		
 		
