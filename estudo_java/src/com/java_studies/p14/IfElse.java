@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c14;
+package com.java_studies.p14;
 
 import java.util.Scanner;
 
