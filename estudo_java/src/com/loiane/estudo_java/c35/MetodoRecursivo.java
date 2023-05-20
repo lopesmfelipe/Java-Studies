@@ -10,7 +10,7 @@ public class MetodoRecursivo {
 		}
 		return fatorial;
 		
-	} /// asjdflasjdflajsdlfkj
+	} 
 	
 	public static int fatorialRecursivo(int valorRecebido) {
 		
