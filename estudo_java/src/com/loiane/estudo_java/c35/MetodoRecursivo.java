@@ -11,4 +11,13 @@ public class MetodoRecursivo {
 		return fatorial;
 		
 	}
+	
+	public static int fatorialRecursivo(int valorRecebido) {
+		
+		if ( valorRecebido == 0) {
+			return 1;
+		}
+		return valorRecebido * fatorialRecursivo(valorRecebido - 1);
+		
+	}
 }
