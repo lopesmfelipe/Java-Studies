@@ -12,7 +12,7 @@ public class MetodoRecursivo {
 	}
 	
 	
-	
+	// metodo RECURSIVO || // cálculo de fatorial através de um loop RECURSIVO
 	
 	
 }
