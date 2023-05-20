@@ -7,7 +7,7 @@ public class Main {
 		
 		System.out.println(MetodoRecursivo.calcularFatorialNormal(5));
 		
-		System.out.println();
+		System.out.println(MetodoRecursivo.calcularFatorial(5));
 		
 		
 		

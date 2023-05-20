@@ -12,12 +12,12 @@ public class MetodoRecursivo {
 	}
 
 	// metodo RECURSIVO || // cálculo de fatorial através de um loop RECURSIVO
-	public static int fatorial(int number) {
+	public static int calcularFatorial(int number) {
 
 		if (number == 0) {
 			return 1;
 		}
 
-		return number * fatorial(number - 1);
+		return number * calcularFatorial(number - 1);
 	}
 }
