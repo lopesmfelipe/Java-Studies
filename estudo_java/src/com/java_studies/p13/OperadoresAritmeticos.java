@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c13;
+package com.java_studies.p13;
 
 public class OperadoresAritmeticos {
 
