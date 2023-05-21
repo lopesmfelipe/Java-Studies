@@ -6,9 +6,15 @@ public class Test {
 		
 		Contact contact = new Contact();
 		
-		contact.setName(null);
-		contact.setAdress(null);
-		contact.setPhone(null);
+		contact.setName("Smaug");
+		contact.setAdress("Terra média");
+		contact.setPhone("99999999");
+		
+		System.out.println(contact.getName());
+		System.out.println(contact.getAdress());
+		System.out.println(contact.getPhone());
+
+		
 		
 		
 	}
