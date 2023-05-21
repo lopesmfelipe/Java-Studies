@@ -3,8 +3,8 @@ package com.java_studies.p36;
 public class Contact {
 	
 	private String nome;
-	private String endereco;
-	private String telefone;
+	private String adress;
+	private String phone;
 	
 	
 	public String getNome() {
@@ -14,16 +14,16 @@ public class Contact {
 		this.nome = nome;
 	}
 	public String getEndereco() {
-		return endereco;
+		return adress;
 	}
 	public void setEndereco(String endereco) {
-		this.endereco = endereco;
+		this.adress = endereco;
 	}
-	public String getTelefone() {
-		return telefone;
+	public String getPhone() {
+		return phone;
 	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
+	public void setPhone(String telefone) {
+		this.phone = telefone;
 	}
 	
 	
