@@ -4,7 +4,7 @@ public class Contact {
 	
 	private String name;
 	private Adress adress;
-	private Phone phone;
+	private Phone[] phones;  // como é um array, colocar o nome do atributo no plural
 	
 	
 	public String getName() {
@@ -20,13 +20,14 @@ public class Contact {
 	public void setAdress(Adress adress) {
 		this.adress = adress;
 	}
+	public Phone[] getPhones() {
+		return phones;
+	}
+	public void setPhones(Phone[] phones) {
+		this.phones = phones;
+	}
 	
-	public Phone getPhone() {
-		return phone;
-	}
-	public void setPhone(Phone phone) {
-		this.phone = phone;
-	}
+	
 	
 	
 	
