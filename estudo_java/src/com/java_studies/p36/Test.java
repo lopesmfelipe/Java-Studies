@@ -19,7 +19,7 @@ public class Test {
 		System.out.println(contact.getName());
 		System.out.println(contact.getPhone());
 		
-		if (contact.getAdress() != null) {
+		if (contact != null && contact.getAdress() != null) {
 			System.out.println(contact.getAdress().getCity());
 		}
 		

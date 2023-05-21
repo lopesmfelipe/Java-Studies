@@ -4,7 +4,7 @@ public class Contact {
 	
 	private String name;
 	private Adress adress;
-	private String phone;
+	private Phone phone;
 	
 	
 	public String getName() {
