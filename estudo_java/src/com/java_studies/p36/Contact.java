@@ -20,12 +20,14 @@ public class Contact {
 	public void setAdress(Adress adress) {
 		this.adress = adress;
 	}
-	public String getPhone() {
+	
+	public Phone getPhone() {
 		return phone;
 	}
-	public void setPhone(String telefone) {
-		this.phone = telefone;
+	public void setPhone(Phone phone) {
+		this.phone = phone;
 	}
+	
 	
 	
 	
