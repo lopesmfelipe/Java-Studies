@@ -2,22 +2,23 @@ package com.java_studies.p36;
 
 public class Contact {
 	
-	private String nome;
-	private String adress;
+	private String name;
+	private Adress adress;
 	private String phone;
 	
 	
 	public String getName() {
-		return nome;
+		return name;
 	}
 	public void setName(String nome) {
-		this.nome = nome;
+		this.name = nome;
 	}
-	public String getAdress() {
+	
+	public Adress getAdress() {
 		return adress;
 	}
-	public void setAdress(String endereco) {
-		this.adress = endereco;
+	public void setAdress(Adress adress) {
+		this.adress = adress;
 	}
 	public String getPhone() {
 		return phone;
