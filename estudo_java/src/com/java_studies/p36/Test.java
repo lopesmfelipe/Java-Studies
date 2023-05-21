@@ -17,9 +17,13 @@ public class Test {
 		contact.setPhone("99999999");
 
 		System.out.println(contact.getName());
-		System.out.println(contact.getAdress().getCity());
 		System.out.println(contact.getPhone());
-
+		
+		if (contact.getAdress() != null) {
+			System.out.println(contact.getAdress().getCity());
+		}
+		
+		
 	}
 
 }
