@@ -6,7 +6,9 @@ public class Test {
 		
 		Contact contact = new Contact();
 		
-		
+		contact.setName(null);
+		contact.setAdress(null);
+		contact.setPhone(null);
 		
 		
 	}

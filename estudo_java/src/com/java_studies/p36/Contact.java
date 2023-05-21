@@ -7,16 +7,16 @@ public class Contact {
 	private String phone;
 	
 	
-	public String getNome() {
+	public String getName() {
 		return nome;
 	}
-	public void setNome(String nome) {
+	public void setName(String nome) {
 		this.nome = nome;
 	}
-	public String getEndereco() {
+	public String getAdress() {
 		return adress;
 	}
-	public void setEndereco(String endereco) {
+	public void setAdress(String endereco) {
 		this.adress = endereco;
 	}
 	public String getPhone() {
