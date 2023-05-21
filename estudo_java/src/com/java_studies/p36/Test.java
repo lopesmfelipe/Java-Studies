@@ -6,24 +6,23 @@ public class Test {
 
 		Contact contact = new Contact();
 		Adress adr = new Adress();
-		Phone pho = new Phone();
+		Phone phon = new Phone();
 		
 		adr.setCity("San Francisco");
 		adr.setState("California");
 		adr.setStreetName("Silicon Valley");
 		adr.setZipCode("000000");
 
-		pho.setTipo("residential");
-		pho.setNumero("6666666");
-		pho.setDdd("+55");
+		phon.setTipo("residential");
+		phon.setNumero("222222222");
+		phon.setDdd("+55");
 		
 		
-		contact.setAdress(adr);
 		contact.setName("Smaug");
-		contact.setPhone(pho);
+		contact.setAdress(adr);
+		contact.setPhone(phon);
 
 		System.out.println(contact.getName());
-		System.out.println(contact.getPhone());
 		
 		if (contact != null && contact.getAdress() != null) {
 			System.out.println(contact.getAdress().getCity());
