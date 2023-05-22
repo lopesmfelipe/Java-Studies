@@ -21,6 +21,10 @@ public class Test {
 		student02.setName("Michael");  // Esse objeto, por mais que seja um instanciamentom da classe Student, só vai ter acesso aos atributos de sua superclass Pessoa 
 		
 		
+		Pessoa professor02 = new Professor();
+		
+		professor02.setPhone("28409238");
+		
 	}
 
 }
