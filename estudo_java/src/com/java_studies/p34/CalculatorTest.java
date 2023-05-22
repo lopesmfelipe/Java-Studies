@@ -1,4 +1,4 @@
-package com.loiane.estudo_java.c34;
+package com.java_studies.p34;
 
 public class CalculatorTest {
 

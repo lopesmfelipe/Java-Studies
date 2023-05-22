@@ -1,4 +1,4 @@
-package com.loiane.estudo_java.c30;
+package com.java_studies.p30;
 
 public class ClasseTeste {
 

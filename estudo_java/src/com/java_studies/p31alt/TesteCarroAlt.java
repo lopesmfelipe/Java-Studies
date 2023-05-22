@@ -1,6 +1,6 @@
-package com.loiane.estudo_java.c31alt;
+package com.java_studies.p31alt;
 
-import com.loiane.estudo_java.c30.Carro;
+import com.java_studies.p30.Carro;
 
 public class TesteCarroAlt {
 
