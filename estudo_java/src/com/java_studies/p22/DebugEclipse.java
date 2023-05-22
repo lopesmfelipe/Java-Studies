@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c22;
+package com.java_studies.p22;
 
 public class DebugEclipse {
 

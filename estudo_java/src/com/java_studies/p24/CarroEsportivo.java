@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c24;
+package com.java_studies.p24;
 
 public class CarroEsportivo {
 	
