@@ -1,4 +1,4 @@
-package com.loiane.estudo_java.c29;
+package com.java_studies.p29;
 
 public class Carro {
 

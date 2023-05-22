@@ -1,6 +1,6 @@
-package com.loiane.estudo_java.c27;
+package com.java_studies.p27;
 
-import com.loiane.estudo_java.c27.Carro;
+import com.java_studies.p27.Carro;
 
 public class Principal {
 
