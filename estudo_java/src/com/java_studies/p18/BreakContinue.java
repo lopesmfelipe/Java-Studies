@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c18;
+package com.java_studies.p18;
 
 import java.util.Scanner;
 

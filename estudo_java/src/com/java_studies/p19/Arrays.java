@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c19;
+package com.java_studies.p19;
 
 public class Arrays {
 

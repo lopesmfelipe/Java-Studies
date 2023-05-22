@@ -1,4 +1,4 @@
-package com.loiane.estudo_java.c35;
+package com.java_studies.p35;
 
 public class Main {
 

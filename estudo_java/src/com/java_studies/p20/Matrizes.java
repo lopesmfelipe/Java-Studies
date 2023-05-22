@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c20;
+package com.java_studies.p20;
 
 public class Matrizes {
 

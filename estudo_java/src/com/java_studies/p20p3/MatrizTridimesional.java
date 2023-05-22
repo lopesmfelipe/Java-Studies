@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c20p3;
+package com.java_studies.p20p3;
 
 public class MatrizTridimesional {
 
