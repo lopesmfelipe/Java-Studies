@@ -1,8 +1,8 @@
 package com.java_studies.p37;
 
-public abstract class Pessoa {
+public class Pessoa {
 
-	private static String name;
+	private static String name;  // classes que extends essa aqui, teram acesso aos seus atributos através dos seus métodos get/set, já que os atributos estão privados
 	private static String adress;
 	private static String cpf;
 	private static String phone;
