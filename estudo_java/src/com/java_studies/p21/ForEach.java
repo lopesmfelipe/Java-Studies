@@ -1,4 +1,4 @@
-package com.loiane.javacourse.c21;
+package com.java_studies.p21;
 
 import java.util.Random;
 
