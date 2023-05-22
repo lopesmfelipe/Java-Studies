@@ -5,6 +5,20 @@ public class Student extends Pessoa{
 	private String[] courses;
 	private double[][] notas;
 
+	
+	
+	
+	
+	
+	
+	
+	public Student() {
+		super();
+
+	
+	
+	}
+
 	public String[] getCourses() {
 		return courses;
 	}
