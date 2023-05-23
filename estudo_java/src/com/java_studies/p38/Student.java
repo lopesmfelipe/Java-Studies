@@ -8,8 +8,12 @@ public class Student extends Pessoa{
 	
 	
 
+	public Student(String name, String phone) {
+		super(name, phone); // vai chamar o construtor com parâmetros da superclasse
+	}
+
 	public Student() {
-		super();  // vai chamar o construtor da superclasse
+		super();  // vai chamar o construtor sem parâmetros da superclasse 
 	}
 
 	public String[] getCourses() {
