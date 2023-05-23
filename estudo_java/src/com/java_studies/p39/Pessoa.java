@@ -7,7 +7,9 @@ public class Pessoa {
 	private String adress;
 	private String cpf;
 	private String phone;
-
+	String visibilidade;
+	
+	
 	public Pessoa() {
 	}
 

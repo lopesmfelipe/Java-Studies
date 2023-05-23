@@ -5,6 +5,12 @@ public class Student extends Pessoa {
 	private String[] courses;
 	private double[][] notas;
 
+	
+	public void acessoVerificacao() {
+		super.visibilidade = "visivel";
+	}
+	
+	
 	public Student(String name, String phone) {
 		super(name, phone); // vai chamar o construtor da superclasse com super e definir os parâmetros com
 							// os recebidos aqui
