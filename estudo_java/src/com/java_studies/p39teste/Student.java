@@ -1,4 +1,6 @@
-package com.java_studies.p39;
+package com.java_studies.p39teste;
+
+import com.java_studies.p39.Pessoa;
 
 public class Student extends Pessoa {
 
