@@ -1,6 +1,6 @@
 package com.java_studies.p38;
 
-public class Professor extends Pessoa{
+public class Professor extends Pessoa {
 
 	private double wage;
 	private String departamento;

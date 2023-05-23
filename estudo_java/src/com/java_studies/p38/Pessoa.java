@@ -2,30 +2,21 @@ package com.java_studies.p38;
 
 public class Pessoa {
 
-	private String name;  // classes que extends essa aqui, teram acesso aos seus atributos através dos seus métodos get/set, já que os atributos estão privados
+	private String name; // classes que extends essa aqui, teram acesso aos seus atributos através dos
+							// seus métodos get/set, já que os atributos estão privados
 	private String adress;
 	private String cpf;
 	private String phone;
-	
-	
-	
-	
-	
+
 	public Pessoa() {
 	}
 
-
-
-
-	public Pessoa(String name, String phone) {  // construtor com parâmetros
+	public Pessoa(String name, String phone) { // construtor com parâmetros
 		super();
 		this.name = name;
 		this.phone = phone;
 	}
 
-	
-	
-	
 	public String getName() {
 		return name;
 	}
@@ -57,11 +48,5 @@ public class Pessoa {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-
-	
-	
-	
-	
-	
 
 }
