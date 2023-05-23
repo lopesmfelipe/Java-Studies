@@ -7,7 +7,8 @@ public class Pessoa {
 	private String adress;
 	private String cpf;
 	private String phone;
-	public String visibilidade;
+	
+	protected String visibilidade;
 	
 	
 	public Pessoa() {
@@ -52,7 +53,7 @@ public class Pessoa {
 	}
 	
 	
-	 public void metodoParaTest(String message) {
+	 protected void metodoParaTest(String message) {
 		System.out.println(message);
 	}
  
