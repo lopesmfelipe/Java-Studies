@@ -7,6 +7,10 @@ public class Pessoa {
 	private static String cpf;
 	private static String phone;
 
+	
+	
+	
+	
 	public static String getName() {
 		return name;
 	}

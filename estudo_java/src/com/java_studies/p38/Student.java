@@ -7,16 +7,9 @@ public class Student extends Pessoa{
 
 	
 	
-	
-	
-	
-	
-	
-	public Student() {
-		super();
 
-	
-	
+	public Student() {
+		super();  // vai chamar o construtor da superclasse
 	}
 
 	public String[] getCourses() {
