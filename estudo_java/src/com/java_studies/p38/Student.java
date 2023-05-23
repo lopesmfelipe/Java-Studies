@@ -39,5 +39,8 @@ public class Student extends Pessoa {
 	}
 
 	public void algumaCoisa() {
+		this.setName("Trevor");
+		super.setName("Trevor");
+		
 	}
 }
