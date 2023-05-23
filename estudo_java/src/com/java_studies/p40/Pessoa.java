@@ -9,7 +9,7 @@ public class Pessoa {
 
 	
 	public String obterEtiquetaEndereco() {
-		return adress;
+		return phone;
 	}
 	
 	
