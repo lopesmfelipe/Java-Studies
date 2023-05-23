@@ -9,9 +9,8 @@ public class Main {
 
 		student01.setPhone("1111111111");
 		professor01.setPhone("999999999");
-		
-		
-		//Polimorfismo, mesmo método de forma diferente
+
+		// Polimorfismo, mesmo método de forma diferente
 		student01.imprimirEtiquetaEndereco();
 		professor01.imprimirEtiquetaEndereco();
 

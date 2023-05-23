@@ -1,4 +1,4 @@
-package com.java_studies.p41;
+package com.java_studies.p42;
 
 public abstract class Pessoa {  // abstrato você define, não torna realidade(não instancia essa classe)
 
