@@ -2,17 +2,21 @@ package com.java_studies.p40;
 
 public class Pessoa {
 
-	private String name; // classes que extends essa aqui, teram acesso aos seus atributos através dos
-							// seus métodos get/set, já que os atributos estão privados
+	private String name;
 	private String adress;
 	private String cpf;
 	private String phone;
 
+	
+	public String obterEtiquetaEndereco() {
+		return adress;
+	}
+	
+	
 	public Pessoa() {
 	}
 
-	public Pessoa(String name, String phone) { // construtor com parâmetros
-		super();
+	public Pessoa(String name, String phone) { 
 		this.name = name;
 		this.phone = phone;
 	}
