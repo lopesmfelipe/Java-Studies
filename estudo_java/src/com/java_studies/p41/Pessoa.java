@@ -1,6 +1,6 @@
 package com.java_studies.p41;
 
-public class Pessoa {
+public abstract class Pessoa {
 
 	private String name;
 	private String adress;
