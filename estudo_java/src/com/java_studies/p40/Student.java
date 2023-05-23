@@ -32,6 +32,14 @@ public class Student extends Pessoa {
 	public void algumaCoisa() {
 		this.setName("Trevor");
 		super.setName("Trevor");
+	}
+
+	public String obterEtiquetaEndereco() {
+
+		String identificacao = "Student Phone: ";
+		identificacao += super.getPhone();
+		return identificacao;
 
 	}
+
 }
