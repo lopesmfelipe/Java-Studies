@@ -6,7 +6,6 @@ public class Main {
 
 		Student firstStudent = new Student();
 
-
 		firstStudent.metodoParaTest(null);
 	}
 
