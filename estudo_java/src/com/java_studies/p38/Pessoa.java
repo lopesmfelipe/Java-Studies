@@ -12,7 +12,6 @@ public class Pessoa {
 	
 	
 	public Pessoa() {
-		super();
 	}
 
 
