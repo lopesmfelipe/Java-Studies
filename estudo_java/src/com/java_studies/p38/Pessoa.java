@@ -7,7 +7,18 @@ public class Pessoa {
 	private String cpf;
 	private String phone;
 	
-	public Pessoa(String name, String phone) {
+	
+	
+	
+	
+	public Pessoa() {
+		super();
+	}
+
+
+
+
+	public Pessoa(String name, String phone) {  // construtor com parâmetros
 		super();
 		this.name = name;
 		this.phone = phone;
