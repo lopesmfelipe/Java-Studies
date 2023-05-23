@@ -7,10 +7,11 @@ public abstract class Pessoa {
 	private String cpf;
 	private String phone;
 
-	public String obterEtiquetaEndereco() {
-		return phone;
-	}
+	public abstract String obterEtiquetaEndereco(); // abstract method
 
+	public abstract void imprimirEtiquetaEndereco();
+	
+	
 	public Pessoa() {
 	}
 
