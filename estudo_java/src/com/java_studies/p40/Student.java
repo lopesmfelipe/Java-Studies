@@ -6,11 +6,11 @@ public class Student extends Pessoa {
 	private double[][] notas;
 
 	public Student(String name, String phone) {
-		super(name, phone); 
+		super(name, phone);
 	}
 
 	public Student() {
-		super(); 
+		super();
 	}
 
 	public String[] getCourses() {
@@ -30,8 +30,8 @@ public class Student extends Pessoa {
 	}
 
 	public void algumaCoisa() {
-		this.setName("Trevor");  
-		super.setName("Trevor"); 
-		
+		this.setName("Trevor");
+		super.setName("Trevor");
+
 	}
 }
