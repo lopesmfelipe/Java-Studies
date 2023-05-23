@@ -39,8 +39,8 @@ public class Student extends Pessoa {
 	}
 
 	public void algumaCoisa() {
-		this.setName("Trevor");
-		super.setName("Trevor");
+		this.setName("Trevor");  // por herança pode utilizar os métods da superClass que extends
+		super.setName("Trevor"); // só vai mostrar os métodos da Superclass
 		
 	}
 }
