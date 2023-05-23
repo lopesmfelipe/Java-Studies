@@ -1,9 +1,5 @@
 package com.java_studies.p41;
 
-import com.java_studies.p40.Pessoa;
-import com.java_studies.p40.Professor;
-import com.java_studies.p40.Student;
-
 public class Main {
 
 	public static void main(String[] args) {
