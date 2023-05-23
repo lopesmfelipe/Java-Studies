@@ -50,5 +50,10 @@ public class Pessoa {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	
+	
+	public void metodoParaTest(String message) {
+		System.out.println(message);
+	}
 
 }

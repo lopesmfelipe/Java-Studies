@@ -6,10 +6,14 @@ public class Student extends Pessoa {
 	private double[][] notas;
 
 	
-	public void acessoVerificacao() {
-		super.visibilidade = "visivel";
+	public void metodoX() {
+		super.metodoParaTest("Don't let your dreams be dreams");
 	}
 	
+	public void acessoVerificacao() {
+		super.visibilidade = "visivel(super)";
+		this.visibilidade = "visivel(this)";
+	}
 	
 	public Student(String name, String phone) {
 		super(name, phone); // vai chamar o construtor da superclasse com super e definir os parâmetros com
