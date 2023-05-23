@@ -53,7 +53,7 @@ public class Pessoa {
 	}
 	
 	
-	 protected void metodoParaTest(String message) {
+	 protected void metodoParaTest(String message) {  // 'protected' é visivel até para subclasses que estão em outros subpacotes
 		System.out.println(message);
 	}
  
