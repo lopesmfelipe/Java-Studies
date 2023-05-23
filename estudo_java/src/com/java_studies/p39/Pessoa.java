@@ -52,7 +52,7 @@ public class Pessoa {
 	}
 	
 	
-	public void metodoParaTest(String message) {
+	 void metodoParaTest(String message) {
 		System.out.println(message);
 	}
 
