@@ -21,8 +21,12 @@ public class Professor extends Pessoa {
 		this.departamento = departamento;
 	}
 
-	private static double calcularSalarioLiquido() {
-		return 0;
+	public String obterEtiquetaEndereco() {
+
+		String identificar = "Professor phone: ";
+		identificar += super.getPhone();
+		return identificar;
+
 	}
 
 }
