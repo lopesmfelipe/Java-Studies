@@ -1,6 +1,6 @@
 package com.java_studies.p42;
 
-public class Professor extends Pessoa {
+public class Professor {
 
 	private double wage;
 	private String departamento;
@@ -24,16 +24,16 @@ public class Professor extends Pessoa {
 	public String obterEtiquetaEndereco() {
 
 		String identificar = "Professor phone: ";
-		identificar += super.getPhone();
+		// identificar += super.getPhone();
 		return identificar;
 
 	}
 
-	//@Override
+	// @Override
 	public void imprimirEtiquetaEndereco() {
 
 		System.out.print("Printing student phone: ");
-		System.out.println(super.getPhone());
+		// System.out.println(super.getPhone());
 	}
 
 }

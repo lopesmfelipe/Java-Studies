@@ -1,17 +1,16 @@
 package com.java_studies.p42;
 
-public class Pessoa {  // abstrato você define, não torna realidade(não instancia essa classe)
+public final class Pessoa {
 
 	private String name;
 	private String adress;
 	private String cpf;
 	private String phone;
 
-	//public abstract String obterEtiquetaEndereco(); // abstract method
+	// public abstract String obterEtiquetaEndereco(); // abstract method
 
-	//public abstract void imprimirEtiquetaEndereco();
-	
-	
+	// public abstract void imprimirEtiquetaEndereco();
+
 	public Pessoa() {
 	}
 

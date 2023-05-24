@@ -1,12 +1,12 @@
 package com.java_studies.p42;
 
-public class Student extends Pessoa {
+public class Student {
 
 	private String[] courses;
 	private double[][] notas;
 
 	public Student(String name, String phone) {
-		super(name, phone);
+		// super(name, phone);
 	}
 
 	public Student() {
@@ -30,23 +30,23 @@ public class Student extends Pessoa {
 	}
 
 	public void algumaCoisa() {
-		this.setName("Trevor");
-		super.setName("Trevor");
+		// this.setName("Trevor");
+		// super.setName("Trevor");
 	}
 
 	public String obterEtiquetaEndereco() {
 
 		String identificacao = "Student Phone: ";
-		identificacao += super.getPhone();
+		// identificacao += super.getPhone();
 		return identificacao;
 
 	}
 
-	//@Override
+	// @Override
 	public void imprimirEtiquetaEndereco() {
 
 		System.out.print("Printing student phone: ");
-		System.out.println(super.getPhone());
+		// System.out.println(super.getPhone());
 
 	}
 
