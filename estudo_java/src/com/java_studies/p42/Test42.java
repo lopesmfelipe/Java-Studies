@@ -4,7 +4,7 @@ public class Test42 {
 
 	public static void main(String[] args) {
 
-		Pessoa nPessoa = new Pessoa(); // declara o tipo pessoa mas instancia os tipos diferentes
+		Pessoa nPessoa = new Pessoa(); 
 		Student nStudent = new Student();
 		Professor nProfessor = new Professor();
 
@@ -19,7 +19,7 @@ public class Test42 {
 		final int n = 42; // variável não pode ser alterada
 		// n = n + 1;
 
-		System.out.println(n);
+ 		System.out.println(n);
 
 	}
 
