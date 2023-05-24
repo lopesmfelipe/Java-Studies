@@ -1,8 +1,10 @@
 package com.java_studies.p43;
 
+import java.util.Arrays;
+
 public class Student {
 
-	private String[] courses;
+	private String courses;
 	private double[] notas;
 
 	public Student(String name, String phone) {
@@ -12,11 +14,11 @@ public class Student {
 		super();
 	}
 
-	public String[] getCourses() {
+	public String getCourses() {
 		return courses;
 	}
 
-	public void setCourses(String[] courses) {
+	public void setCourses(String courses) {
 		this.courses = courses;
 	}
 
@@ -49,4 +51,18 @@ public class Student {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Student [courses=" + courses + ", notas=" + Arrays.toString(notas) + "]";
+	}
+
+	/*public String toString() {  // toString feito na mão, mas o eclipse já cria automatico se quisermos 
+		String soma = courses + "\n";
+		for (double notaSingular : notas) {
+			soma += notaSingular + " ";
+
+		}
+		return soma;
+	}*/
+	
 }
