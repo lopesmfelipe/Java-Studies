@@ -1,6 +1,7 @@
 package com.java_studies.p43;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Student {
 
@@ -56,6 +57,9 @@ public class Student {
 		return "Student [courses=" + courses + ", notas=" + Arrays.toString(notas) + "]";
 	}
 
+	
+
+
 	/*public String toString() {  // toString feito na mão, mas o eclipse já cria automatico se quisermos 
 		String soma = courses + "\n";
 		for (double notaSingular : notas) {
@@ -64,5 +68,48 @@ public class Student {
 		}
 		return soma;
 	}*/
+	
+	/*@Override
+	public boolean equals(Object obj) {
+		if (this == obj)// compara se é a mesma referência
+			return true;
+		if (obj == null)// se for null retorna falso
+			return false;
+		if (getClass() != obj.getClass())//tipo da classe
+			return false;
+		Student other = (Student) obj;// casting
+		return Objects.equals(courses, other.courses) && Arrays.equals(notas, other.notas); // compara o valor dos atributos e objetos
+	}*/
+	
+	
+	
+	// equals que modificamos
+	/*@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		Student other = (Student) obj; 
+		return Objects.equals(courses, other.courses) || Arrays.equals(notas, other.notas); 
+	} alterei para "||" em vez de "&&", dessa forma, se o objeto tiver apenas um de seus atributos true, vai
+	  retornar verdadeiro
+	*/
+	
+	// equals que modificamos 2
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		Student other = (Student) obj;
+		return Objects.equals(courses, other.courses);
+	}
+	
+	
+	
+	
+	
 	
 }

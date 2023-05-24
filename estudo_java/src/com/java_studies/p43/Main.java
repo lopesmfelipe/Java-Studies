@@ -8,7 +8,7 @@ public class Main {
 
 		double[] grades = { 10, 9, 9.7, 10 };
 		student01.setNotas(grades);
-		student01.setCourses("Computer Science");
+		student01.setCourses("Software Enginner");
 
 		//System.out.println(student01.toString());
 		
@@ -17,7 +17,7 @@ public class Main {
 		
 		
 		int number1 = 1, number2 = 1;
-		System.out.println(number1 == number2);  // para tipos primitivos ele verifica o valor de cada variável normalmente
+		//System.out.println(number1 == number2);  // para tipos primitivos ele verifica o valor de cada variável normalmente
 		
 		
 		
@@ -36,11 +36,11 @@ public class Main {
 		
 		
 		Student student02 = new Student();
-		double[] grades2 = { 10, 9, 9.7, 10 };
+		double[] grades2 = { 0, 0, 0,0 };
 		student02.setNotas(grades2);
-		student02.setCourses("Computer Science");
+		student02.setCourses("Software Enginner");
 		
-		System.out.println(student01 == student02);
+		System.out.println(student01.equals(student02));
 		
 		
 	}
