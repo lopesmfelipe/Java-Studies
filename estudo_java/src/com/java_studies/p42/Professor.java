@@ -29,7 +29,7 @@ public class Professor extends Pessoa {
 
 	}
 
-	@Override
+	//@Override
 	public void imprimirEtiquetaEndereco() {
 
 		System.out.print("Printing student phone: ");
