@@ -3,10 +3,9 @@ package com.java_studies.p43;
 public class Student {
 
 	private String[] courses;
-	private double[][] notas;
+	private double[] notas;
 
 	public Student(String name, String phone) {
-		// super(name, phone);
 	}
 
 	public Student() {
@@ -21,11 +20,11 @@ public class Student {
 		this.courses = courses;
 	}
 
-	public double[][] getNotas() {
+	public double[] getNotas() {
 		return notas;
 	}
 
-	public void setNotas(double[][] notas) {
+	public void setNotas(double[] notas) {
 		this.notas = notas;
 	}
 
