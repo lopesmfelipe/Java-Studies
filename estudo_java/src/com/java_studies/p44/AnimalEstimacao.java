@@ -1,6 +1,6 @@
 package com.java_studies.p44;
 
-public interface animalEstimacao {
+public interface AnimalEstimacao {
 	
 	
 	// Todos os métodos em uma interface são públicos e abstratos, então não precisa disso na frente

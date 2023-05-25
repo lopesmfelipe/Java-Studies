@@ -1,6 +1,6 @@
 package com.java_studies.p44;
 
-public class Papagaio extends Ave{
+public class Aguia extends Ave implements AnimalDomestico {
 
 	@Override
 	public void voar() {
