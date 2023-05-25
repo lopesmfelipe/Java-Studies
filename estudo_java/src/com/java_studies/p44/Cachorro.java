@@ -1,6 +1,6 @@
 package com.java_studies.p44;
 
-public class Cachorro extends Mamifero{
+public class Cachorro extends Mamifero implements AnimalEstimacao, AnimalDomestico{
 	
 	String race;
 	double size;
@@ -24,13 +24,37 @@ public class Cachorro extends Mamifero{
 	}
 
 	@Override
-	public void amamentar() {
+	public void amamentar() { // Mamifero
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void emitirSons() {
+	public void emitirSons() { // Animal
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void levarPassear() { //AnimalDomestico
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void brincar() { // AnimalDomestico
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void levarNoVeterinario() { // AnimalDomesticado
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void alimentar() { // AnimalDomesticado
 		// TODO Auto-generated method stub
 		
 	}
