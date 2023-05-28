@@ -4,23 +4,23 @@ public class Casting {
 
 	public static void main(String[] args) {
 
-		Animal theOctopus = new Octopus(); // UPCASTING - automatico
-		Dragon smaug = (Dragon) new Animal(); // DOWNCASTING - manual
-
-		doAnimalStuff(theOctopus);
+		Dragon dragon01 = new Dragon(); // UPCASTING(sobe a classe) - sempre acontece automaticamente em Java
+		Octopus octopus01 = new Octopus();
 		
-		
-		/*Dragon theDragon = new Dragon();
-		doAnimalStuff(theDragon);*/
-		
+		doAnimalStuff(octopus01);
 	}
 
-	public static void doAnimalStuff(Animal animal) {  // neste método ocorre 'CASTING' já que ele recebe um objeto de qualquer subclasse que extend Animal. 
+	public static void doAnimalStuff(Animal animal) { // neste método ocorre 'UPCASTING' já que ele recebe um objeto de qualquer subclasse que extend Animal.
 		animal.animalMove();
+		if (animal instanceof Dragon) {  // se o objeto recebido for uma instancia da classe requerida, vai executar
+			
+			Dragon dragon02 = (Dragon)animal;  // DOWNCASTING - vai pegar o objeto da superclass Animal e passar de volta para a subclasse específica 
+			dragon02.attack();
+		}
+		if (animal instanceof Octopus) {  // agora podemos converter(cast) com segurança sabendo que é da classe que queremos 
+			Octopus octopus = (Octopus)animal;
+			octopus.attack();
+		}
 	}
-	
-	
-	
-	
-	
+
 }

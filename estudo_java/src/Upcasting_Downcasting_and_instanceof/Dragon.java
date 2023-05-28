@@ -8,7 +8,7 @@ public class Dragon extends Animal {
 	}
 
 	public void attack() {
-		System.out.println("Fire");
+		System.out.println("Its attack is Fire");
 	}
 
 }
