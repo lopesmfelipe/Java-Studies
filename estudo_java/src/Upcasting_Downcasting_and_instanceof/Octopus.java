@@ -8,7 +8,7 @@ public class Octopus extends Animal {
 	}
 
 	public void attack() {
-		System.out.println("Its attack is Ink");
+		System.out.println("It's attack is Ink");
 	}
 
 }

@@ -4,10 +4,10 @@ public class Casting {
 
 	public static void main(String[] args) {
 
-		Dragon dragon01 = new Dragon(); // UPCASTING(sobe a classe) - sempre acontece automaticamente em Java
+		Animal dragon01 = new Dragon(); // UPCASTING(sobe a classe) - sempre acontece automaticamente em Java
 		Octopus octopus01 = new Octopus();
 		
-		doAnimalStuff(octopus01);
+		doAnimalStuff(dragon01);
 	}
 
 	public static void doAnimalStuff(Animal animal) { // neste método ocorre 'UPCASTING' já que ele recebe um objeto de qualquer subclasse que extend Animal.
