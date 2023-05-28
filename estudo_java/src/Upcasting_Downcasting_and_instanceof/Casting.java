@@ -9,6 +9,8 @@ public class Casting {
 		doAnimalStuff(theOctopus);
 		
 		Dragon theDragon = new Dragon();
+		doAnimalStuff(theDragon);
+		
 	}
 
 	public static void doAnimalStuff(Animal animal) {  // neste método ocorre 'CASTING' já que ele recebe um objeto de qualquer subclasse que extend Animal. 
