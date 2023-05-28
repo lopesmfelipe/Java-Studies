@@ -5,11 +5,13 @@ public class Casting {
 	public static void main(String[] args) {
 
 		Animal theOctopus = new Octopus(); // UPCASTING - automatico
+		Dragon smaug = (Dragon) new Animal(); // DOWNCASTING - manual
 
 		doAnimalStuff(theOctopus);
 		
-		Dragon theDragon = new Dragon();
-		doAnimalStuff(theDragon);
+		
+		/*Dragon theDragon = new Dragon();
+		doAnimalStuff(theDragon);*/
 		
 	}
 
