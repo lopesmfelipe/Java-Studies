@@ -5,7 +5,7 @@ public class MatrizTridimesional {
 	public static void main(String[] args) {
 
 		int[][][] matrizTri = new int[3][3][3];
-		
+
 		for (int i = 0; i < matrizTri.length; i++) {
 			for (int j = 0; j < matrizTri[i].length; j++) {
 				for (int k = 0; k < matrizTri[i][j].length; k++) {
@@ -13,7 +13,7 @@ public class MatrizTridimesional {
 					matrizTri[i][j][k] = i + j + k;
 				}
 			}
-				
+
 		}
 		int soma = 0;
 		int somaPares = 0;
@@ -30,9 +30,9 @@ public class MatrizTridimesional {
 					}
 				}
 			}
-				
+
 		}
-		
+
 		System.out.println("Soma total = " + soma);
 		System.out.println("Soma dos pares = " + somaPares);
 		System.out.println("Soma dos Impares = " + somaImpares);
