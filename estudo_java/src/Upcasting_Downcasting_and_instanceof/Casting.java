@@ -4,7 +4,7 @@ public class Casting {
 
 	public static void main(String[] args) {
 
-		Octopus theOctopus = new Octopus(); // UPCASTING
+		Animal theOctopus = new Octopus(); // UPCASTING - automatico
 
 		doAnimalStuff(theOctopus);
 		
