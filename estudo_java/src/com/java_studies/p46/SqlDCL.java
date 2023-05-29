@@ -1,5 +1,5 @@
 package com.java_studies.p46;
 
-public class SqlDD {
+public class SqlDCL {
 
 }
