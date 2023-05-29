@@ -1,5 +1,7 @@
 package com.java_studies.p46;
 
-public class SqlDCL {
-
+public interface SqlDCL {
+	
+	void grant(String access);
+	void remoke(String access);
 }
