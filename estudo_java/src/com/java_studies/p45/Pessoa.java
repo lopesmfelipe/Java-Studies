@@ -7,16 +7,14 @@ public class Pessoa {
 	private String cpf;
 	private String phone;
 
-	
 	public String obterEtiquetaEndereco() {
 		return phone;
 	}
-	
-	
+
 	public Pessoa() {
 	}
 
-	public Pessoa(String name, String phone) { 
+	public Pessoa(String name, String phone) {
 		this.name = name;
 		this.phone = phone;
 	}
