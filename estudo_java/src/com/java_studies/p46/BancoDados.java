@@ -1,7 +1,8 @@
 package com.java_studies.p46;
 
-public class BancoDados {
+public interface BancoDados extends SqlDDL, SqlDCL, SqlDML{
 	
-	
+	void openConnection();
+	void closeConnection();
 	
 }
