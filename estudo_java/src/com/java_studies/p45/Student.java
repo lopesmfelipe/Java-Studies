@@ -1,5 +1,7 @@
 package com.java_studies.p45;
 
+import java.util.Arrays;
+
 public class Student extends Pessoa {
 
 	private String[] courses;
@@ -42,4 +44,11 @@ public class Student extends Pessoa {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Student [courses=" + Arrays.toString(courses) + ", notas=" + Arrays.toString(notas) + "]";
+	}
+
+	
+	
 }
