@@ -1,4 +1,4 @@
-package com.java_studies.p48;
+package com.java_studies.p49;
 
 public class TestingFinally {
 
