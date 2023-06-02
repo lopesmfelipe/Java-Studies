@@ -1,4 +1,4 @@
-package Throw_instance;
+package com.java_studies.p51;
 
 public class TestingThrow {
 
