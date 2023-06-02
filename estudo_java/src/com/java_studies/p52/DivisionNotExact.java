@@ -4,7 +4,7 @@ public class DivisionNotExact extends Exception {
 
 	private int num;
 	private int den;
-	
+
 	public DivisionNotExact(int num, int den) {
 		super();
 		this.num = num;
@@ -15,8 +15,5 @@ public class DivisionNotExact extends Exception {
 	public String toString() {
 		return "The result of " + num + "/" + den + " is not an integer number";
 	}
-	
-	
-	
-	
+
 }
