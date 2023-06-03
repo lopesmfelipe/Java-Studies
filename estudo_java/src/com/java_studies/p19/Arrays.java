@@ -17,7 +17,6 @@ public class Arrays {
 
 		System.out.println("Tamanho do array: " + temperaturas.length); // Para saber quantas posições o array
 																		// possui(array's length)
-
 		System.out.println("Valores do array: ");
 
 		for (int i = 0; i < temperaturas.length; i++) {
