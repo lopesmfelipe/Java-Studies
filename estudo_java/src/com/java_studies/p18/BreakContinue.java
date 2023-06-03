@@ -7,7 +7,7 @@ public class BreakContinue {
 	public static void main(String[] args) {
 
 		// Loop com break:
-		Scanner scanner1 = new Scanner(System.in);
+		Scanner scanner1 = new Scanner(System.in); //
 
 		System.out.println("Insira um número:");
 		int numero1 = scanner1.nextInt();
