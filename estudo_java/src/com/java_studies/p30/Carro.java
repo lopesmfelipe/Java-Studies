@@ -23,7 +23,6 @@ public class Carro {  // public pode ser utilizado em qualque classe de qualquer
 		
 	}
 
-	
 	public Carro(String tipo, String marca, int numeroPassageiros) {
 		this.tipo = tipo;
 		this.marca = marca;
@@ -41,6 +40,5 @@ public class Carro {  // public pode ser utilizado em qualque classe de qualquer
 	 public Carro() {  // método construtor default, ou seja, só pode ser utilizado pelas classes do pacote
 		
 	}
-	
 	
 }
