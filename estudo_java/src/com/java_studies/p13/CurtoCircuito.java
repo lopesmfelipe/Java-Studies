@@ -14,7 +14,7 @@ public class CurtoCircuito {
 		boolean resultado3 = verdadeiro && falso;              // Se o primeiro for falso, nem verifica o segundo. Não precisa verificar o segundo para saber o resultado
 		boolean resultado4 = verdadeiro & falso;
 		
-		System.out.println(resultado1 == verdadeiro); // 
+		System.out.println(resultado1 == verdadeiro); // to understand
 		System.out.println(resultado1);
 		System.out.println(resultado2);
 		System.out.println(resultado3);
