@@ -37,7 +37,7 @@ public class Test {
 	private static void dayWeek() {
 
 		DayWeek monday = DayWeek.MONDAY;  // Ao criar uma variável do tipo Enum, só podera ser atribuido a ela, algum dos valores dentro do Enum, dando mais controle e segurança ao código
-		DayWeek tuesday = DayWeek.TUESDAY; //
+		DayWeek tuesday = DayWeek.TUESDAY; 
 		DayWeek wednesday = DayWeek.WEDNESDAY;
 		DayWeek thursday = DayWeek.THURSDAY;
 		DayWeek friday = DayWeek.FRIDAY;
